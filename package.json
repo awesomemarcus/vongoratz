@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "@fortawesome/react-fontawesome": "^0.1.2",
     "bootstrap": "^4.1.3",
+    "immutable": "^3.8.2",
     "node-sass-chokidar": "^1.3.3",
     "npm-run-all": "^4.1.3",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-device-detect": "^1.5.9",
     "react-dom": "^16.4.2",
     "react-loadable": "^5.5.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "reactstrap": "^6.4.0"
+    "reactstrap": "^6.4.0",
+    "slate": "^0.40.2",
+    "slate-react": "^0.18.3"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
